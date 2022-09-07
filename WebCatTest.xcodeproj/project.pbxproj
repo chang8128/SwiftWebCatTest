@@ -14,6 +14,7 @@
 		04DDD0C628C8883500F859E5 /* WebCatTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDD0C528C8883500F859E5 /* WebCatTestTests.swift */; };
 		04DDD0D028C8883500F859E5 /* WebCatTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDD0CF28C8883500F859E5 /* WebCatTestUITests.swift */; };
 		04DDD0D228C8883500F859E5 /* WebCatTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDD0D128C8883500F859E5 /* WebCatTestUITestsLaunchTests.swift */; };
+		04DDD0DF28C89D1A00F859E5 /* PhotoCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDD0DE28C89D1A00F859E5 /* PhotoCat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		04DDD0CB28C8883500F859E5 /* WebCatTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebCatTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DDD0CF28C8883500F859E5 /* WebCatTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCatTestUITests.swift; sourceTree = "<group>"; };
 		04DDD0D128C8883500F859E5 /* WebCatTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCatTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04DDD0DE28C89D1A00F859E5 /* PhotoCat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				04DDD0B428C8883300F859E5 /* WebCatTestApp.swift */,
 				04DDD0B628C8883300F859E5 /* ContentView.swift */,
+				04DDD0DE28C89D1A00F859E5 /* PhotoCat.swift */,
 				04DDD0B828C8883400F859E5 /* Assets.xcassets */,
 				04DDD0BA28C8883400F859E5 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				04DDD0B728C8883300F859E5 /* ContentView.swift in Sources */,
 				04DDD0B528C8883300F859E5 /* WebCatTestApp.swift in Sources */,
+				04DDD0DF28C89D1A00F859E5 /* PhotoCat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

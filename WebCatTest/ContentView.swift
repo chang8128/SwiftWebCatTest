@@ -9,8 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack(alignment: .leading, spacing: 20) {
+                HStack {
+                    Image(systemName: "command").resizable()
+                        .frame(width: 40, height: 40, alignment: .center)
+                        .foregroundColor(Color(UIColor.systemRed)).opacity(0.8)
+                    Text("Leave something here")
+                        .font(.headline).bold()
+                }
+                HStack {
+                    Image(systemName: "command.square").resizable()
+                        .frame(width: 40, height: 40, alignment: .center)
+                        .foregroundColor(Color(UIColor.systemYellow)).opacity(0.8)
+                    Text("something")
+                        .font(.headline).bold()
+                }
+                NavigationLink(destination: PhotoCat()) {
+                    HStack {
+                        Image(systemName: "moon").resizable()
+                            .frame(width: 40, height: 40, alignment: .center)
+                            .foregroundColor(Color(UIColor.systemBlue)).opacity(0.8)
+                        Text("Link to photo of cat")
+                    }
+                }
+            }
+        }
     }
 }
 
