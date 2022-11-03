@@ -12,14 +12,14 @@ struct ContentView: View {
         NavigationView {
             VStack(alignment: .leading, spacing: 20) {
                 HStack {
-                    Image(systemName: "command").resizable()
+                    Image(systemName: "book.circle").resizable()
                         .frame(width: 40, height: 40, alignment: .center)
                         .foregroundColor(Color(UIColor.systemRed)).opacity(0.8)
                     Text("Leave something here")
                         .font(.headline).bold()
                 }
                 HStack {
-                    Image(systemName: "command.square").resizable()
+                    Image(systemName: "text.book.closed.fill").resizable()
                         .frame(width: 40, height: 40, alignment: .center)
                         .foregroundColor(Color(UIColor.systemYellow)).opacity(0.8)
                     Text("something")
@@ -27,7 +27,7 @@ struct ContentView: View {
                 }
                 NavigationLink(destination: PhotoCat()) {
                     HStack {
-                        Image(systemName: "moon").resizable()
+                        Image(systemName: "books.vertical.circle.fill").resizable()
                             .frame(width: 40, height: 40, alignment: .center)
                             .foregroundColor(Color(UIColor.systemBlue)).opacity(0.8)
                         Text("Link to photo of cat")
